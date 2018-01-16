@@ -6,15 +6,27 @@
 
 1. gnome-screenshot
 
+> ubuntu 内置截屏工具
+
 2. baidu-aip-sdk
 
-3. trans
+> `npm install baidu-aip-sdk`
 
+3. translate-shell
+
+> https://github.com/soimort/translate-shell
 
 ### 使用
 
 1. 重命名 config_example.json 为 config.json
 
-  `修改 baidu 中的各个属性`
- 
-2. node run.js
+  > `修改配置节中的baidu的api参数`
+  
+    "baidu": {
+        "id": "文本识别应用id",
+        "ak": "文本识别应用API_KEY",
+        "sk": "文本识别应用SECRET_KEY"
+    },
+   
+   
+2. `node run.js`
