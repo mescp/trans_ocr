@@ -1,0 +1,14 @@
+{
+  "baidu": {
+    "id": "",
+    "ak": "",
+    "sk": ""
+  },
+  "screenshot":{
+    "tool":"gnome-screenshot -a -f",
+    "tmpFile":"/tmp/trans_screenshot"
+  },
+  "trans":{
+    "tool":"trans"
+  }
+}
